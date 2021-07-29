@@ -8,6 +8,7 @@ import Crypto from './screens/Crypto';
 import Home from "./screens/Home"
 import ScreenA from './screens/ScreenA';
 import ScreenC from './screens/ScreenC';
+import ScreenDetails from './screens/ScreenDetails';
 
 const Stack = createStackNavigator()
 
@@ -21,6 +22,7 @@ function App() {
       <Stack.Screen name = "Crypto" component = {Crypto} />
       <Stack.Screen name = "ScreenA" component = {ScreenA} />
       <Stack.Screen name = "ScreenC" component = {ScreenC} />
+      <Stack.Screen name = "ScreenDetails" component = {ScreenDetails} />
     </Stack.Navigator>
   </NavigationContainer>
   </Swiper>

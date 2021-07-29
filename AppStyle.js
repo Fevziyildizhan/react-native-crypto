@@ -123,6 +123,19 @@ import { StyleSheet} from 'react-native'
           backgroundColor :  "#fff"
         },
 
+        buttonBottom : {
+          position : "absolute",
+          bottom:50,
+           paddingLeft : 80,
+           paddingRight : 80,
+           paddingBottom : 25,
+           paddingTop : 25,
+          //  marginTop : 300,
+           borderWidth : 2,
+           color : "#fff",
+           backgroundColor :  "#fff"
+         },
+        
         wrapper: {},
         slide1: {
           flex: 1,
@@ -142,10 +155,28 @@ import { StyleSheet} from 'react-native'
           alignItems: 'center',
           backgroundColor: '#19224d'
         },
+        slideDetail: {
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: '#19224d'
+        },
         text: {
           color: '#fff',
           fontSize: 30,
           fontWeight: 'bold'
+        },
+        textDetail: {
+          color: '#fff',
+          fontSize: 15,
+          fontWeight: 'bold',
+          marginRight:20,
+          marginTop: 20
+        },
+        divDetails: {
+          marginTop: 20,
+          flexDirection:"row",
+          
         }
       }
       
